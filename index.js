@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🥢 Use / to utilise me", "🍜 Assisting Katanga Grill"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusMessages = ["🎲 Assisting AC members..", "🎮 Moderating AC's Cuhmminity.."];
+const statusTypes = [ 'online', 'dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
